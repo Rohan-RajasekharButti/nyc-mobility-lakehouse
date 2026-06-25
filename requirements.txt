@@ -1,0 +1,8 @@
+duckdb>=1.0.0
+requests>=2.31.0
+pandas>=2.2.0
+pyarrow>=15.0.0
+
+# Only needed if you actually deploy dags/nyc_mobility_lakehouse_dag.py to an
+# Airflow environment. Not required to run the pipeline scripts locally.
+# apache-airflow>=2.8.0
